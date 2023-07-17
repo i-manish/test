@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "test.js",
   "scripts": {
-    "start": "nodemon removeData.js"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,8 @@
     "@nestjs/graphql": "^10.0.21",
     "@nestjs/mongoose": "^9.2.0",
     "assert": "^2.0.0",
+    "html-docx-js": "^0.3.1",
+    "html-to-docx": "^1.8.0",
     "mongodb": "^4.7.0",
     "mongoose": "^6.4.4",
     "nodemon": "^2.0.19",
